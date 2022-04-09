@@ -1,0 +1,14 @@
+--- zstd-1.5.1.0/setup.py~	2022-01-03 03:30:38.000000000 +0100
++++ zstd-1.5.1.0/setup.py	2022-04-09 11:41:50.737112512 +0200
+@@ -35,10 +35,9 @@
+ 
+ SUP_EXTERNAL=0
+ ext_libraries=[]
+-if "--external" in sys.argv:
++if True:
+     # You want use external Zstd library?
+     SUP_EXTERNAL=1
+-    sys.argv.remove("--external")
+     # You should add external library by option: --libraries zstd
+     # And probably include paths by option: --include-dirs /usr/include/zstd
+     # And probably library paths by option: --library-dirs /usr/lib/i386-linux-gnu
