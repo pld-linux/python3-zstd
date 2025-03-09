@@ -28,7 +28,7 @@ Simple python bindings to Yann Collet ZSTD compression library.
 
 %prep
 %setup -q -n %{module}-%{version}
-%patch0 -p1
+%patch -P 0 -p1
 
 # Remove bundled lib
 %{__rm} -rf zstd
