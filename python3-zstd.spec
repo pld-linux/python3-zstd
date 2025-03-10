@@ -6,7 +6,7 @@
 Summary:	Simple python bindings to Yann Collet ZSTD compression library
 Name:		python3-%{module}
 Version:	1.5.1.0
-Release:	1
+Release:	2
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/zstd/
